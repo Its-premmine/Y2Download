@@ -1,0 +1,133 @@
+.home-wrapper {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef3f7;
+}
+
+.home-card {
+  background: #f9fbfd;
+  width: 100%;
+  max-width: 900px;
+  padding: 50px 40px;
+  border-radius: 22px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.home-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.home-subtitle {
+  margin-top: 10px;
+  color: #4b5563;
+  font-size: 16px;
+}
+
+.input-area {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 14px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+}
+
+.input-area button {
+  padding: 0 28px;
+  border-radius: 14px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: not-allowed;
+}
+
+.info {
+  margin-top: 15px;
+  color: #475569;
+}
+
+.error {
+  margin-top: 15px;
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.video-header {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: left;
+}
+
+.video-header img {
+  width: 220px;
+  border-radius: 14px;
+}
+
+.video-header h3 {
+  font-size: 18px;
+  color: #111827;
+}
+
+.formats {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.formats h4 {
+  margin: 18px 0 10px;
+  font-size: 16px;
+}
+
+.format-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 12px;
+}
+
+/* 🔥 Gradient button */
+.download-btn {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 114, 255, 0.4);
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  transform: scale(1.05);
+}
+
+.home-note {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.home-note span {
+  color: #2563eb;
+  cursor: pointer;
+}
